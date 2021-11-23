@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h3>Prueba de formulario en html</h3>
+
+    <form action=""> <!--no hay dirección de envío-->
+
+        <p>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name">
+        </p>
+        <p>
+            <label for="surname">Apellido:</label>
+            <input type="text" id="surname">
+        </p>
+        <p>
+            <label for="address">Dirección:</label>
+            <input type="text" id="address">
+        </p>
+
+        <p><label for="pass">Contraseña:</label>
+            <input type="password" id="pass" placeholder="8 caracteres">
+        </p>
+
+        <p>Género:
+            <input type="radio" id="male">
+            <label for="male">Hombre</label>
+            <input type="radio" id="female">
+            <label for="female">Mujer</label>
+            <input type="radio" id="other">
+            <label for="other">Otro</label>
+        </p>
+        
+        <p>¿Cómo quieres responder a este cuestionario?
+            <input type="checkbox" id="public">
+            <label for="public">Público</label>
+            <input type="checkbox" id="private">
+            <label for="private">Privado</label>
+        </p>
+
+        <p>¿Tienes ordenador en casa?
+            <input type="radio" id="yes">
+            <label for="yes">Sí</label>
+            <input type="radio" id="no">
+            <label for="no">No</label>
+        </p>
+
+        <p>¿Cuánto sabes de programación?
+            <input type="radio" id="nada">
+            <label for="nada">Nada</label>
+            <input type="radio" id="some">
+            <label for="some">Algo</label>
+            <input type="radio" id="mucho">
+            <label for="mucho">Mucho</label>
+        </p>
+
+        <p>¿Tienes alguna duda?</p>
+        <textarea name="text" id="area" cols="30" rows="10" placeholder="Escríbenos"></textarea>
+
+        <p>
+            <button type="reset">Borrar</button>
+            <button type="button">Enviar</button>
+        </p>
+
+    </form>
+    
+</body>
+</html>
